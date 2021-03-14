@@ -18,7 +18,7 @@ public class HouseDirector {
 
     public House direct() {
         houseBuilder.buildBasic();
-        houseBuilder.buildWall();;
+        houseBuilder.buildWall();
         houseBuilder.roofed();
         return houseBuilder.build();
     }

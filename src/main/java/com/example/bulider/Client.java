@@ -4,8 +4,6 @@ public class Client {
 
     public static void main(String[] args) {
 
-        new StringBuilder();
-
         CommonHouse commonHouse = new CommonHouse();
 
         HighHouse highHouse = new HighHouse();

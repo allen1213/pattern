@@ -15,6 +15,7 @@ public class CurrentConditions implements IObserver{
     }*/
 
     //使用推送模式由WeatherData来调用
+    @Override
     public void update(float temperature, float pressure, float humidity) {
         this.temperature = temperature;
         this.pressure = pressure;

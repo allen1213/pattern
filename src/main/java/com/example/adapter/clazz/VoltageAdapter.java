@@ -1,6 +1,6 @@
 package com.example.adapter.clazz;
 
-public class VoltageAdapter extends Voltage220 implements Voltage5V{
+public class VoltageAdapter extends Voltage220 implements Voltage5V {
     @Override
     public int output5V() {
 

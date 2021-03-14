@@ -21,4 +21,8 @@ public class Test {
         System.out.println(instance1.hashCode());
         System.out.println(instance2.hashCode());
     }
+
+    private static void test02() {
+        Runtime.getRuntime();
+    }
 }

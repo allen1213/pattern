@@ -1,0 +1,4 @@
+ent:
+  aliasMap:
+    entA: entAStrategy
+    entB: entBStrategy
